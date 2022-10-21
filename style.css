@@ -1,0 +1,319 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: oswald;
+}
+.container{
+    height: fit-content;
+    background: linear-gradient(to bottom right, #000000 0%, #000066 100%);
+}
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background: transparent;
+}
+hr{
+    border-color: orange;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.logo{
+    display: flex;
+    font-size: 72px;
+}
+.logo .first-name{
+    font-weight: 900;
+    color: orange;
+    padding-left: 50px;
+}
+.logo .last-name{
+    font-weight: 400;
+    color: white;
+    padding-left: 2px;
+}
+.navigation-fitur{
+    margin-left: 350px;
+    display: flex;
+}
+.navigation-fitur .active{
+    width: max-content;
+    height: max-content;
+    border-radius: 10px;
+    background-color: orange;
+}
+.navigation-fitur li{
+    list-style-type: none;
+    padding: 30px;
+}
+.navigation-fitur li a{
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.5);
+}
+.navigation-fitur li a:hover{
+    padding: 15px;
+    width: max-content;
+    height: max-content;
+    border-radius: 10px;
+    background-color: orange;
+    color: black;
+    transition: all ease-in-out 0.2s;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+.navigation li{
+    list-style-type: none;
+    padding: 30px;
+}
+.navigation li a{
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+.navigation li a:hover{
+    padding: 15px;
+    width: max-content;
+    height: max-content;
+    border-radius: 10px;
+    background-color: orange;
+    color: black;
+    transition: all ease-in-out 0.2s;
+}
+.active{
+    padding: 15px;
+    width: max-content;
+    height: max-content;
+    border-radius: 10px;
+    background-color: orange;
+    color: black !important;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+.body-konten p{
+    margin-top: 30px;
+    margin-left: 0px;
+    width: fit-content;
+    color: black;
+    background-color: orange;
+    padding: 10px;
+}
+.cabor{
+    margin: 10px 0px;
+}
+.navigation li a{
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.navigation li a:hover{
+    padding: 20px;
+    background: orange;
+}
+.navigation .active{
+    padding: 20px;
+    width: max-content;
+    height: max-content;
+    border-radius: 10px;
+    background-color: orange;
+}
+.container-konten p{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px 100px;
+}
+.body-konten{
+    display: flex;
+    flex-direction: row;
+}
+.standings-atas{
+    display: flex;
+}
+.standings-bawah{
+    justify-content: center;
+    display: flex;
+}
+.standings-ucl{
+    margin-right: 120px;
+}
+.grup-a{
+    margin-left: 5px;
+}
+.grup-a p{
+    text-align: center;
+}
+.league ul li a{
+    width: 120px;
+    margin: 10px 80px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+.navigation-konten{
+    margin-top: 30px;
+}
+.navigation-konten li a{
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.navigation-konten li a:hover{
+    background: orange;
+    color: black;
+}
+.navigation-konten .active{
+    background-color: orange;
+}
+.ucl table{
+    border: 1px solid orange;
+    width: fit-content;
+    color: white;
+    font-size: 22px;
+}
+.standings-ucl .grup-a{
+    margin-top: 33px;
+    padding: 8px 20px;
+}
+.grup-a tr th{
+    background: orange;
+    color: black;
+    font-weight: normal;
+}
+.grup-a tr td{
+    padding: 8px 20px;
+    text-align: center;
+}
+.grup-a tr:hover{
+    background-color: orange;
+    color: black;
+}
+.grup-b{
+    margin-top: 20px;
+    padding: 8px 20px;
+}
+.grup-b tr th{
+    background: orange;
+    color: black;
+    font-weight: normal;
+}
+.grup-b tr td{
+    padding: 8px 20px;
+}
+.grup-b tr:hover{
+    background-color: orange;
+    color: black;
+}
+.card-1{
+    margin-bottom: 30px;
+}
+.card-1:hover {
+    box-shadow: 10px 10px 15px 0 rgba(255, 255, 255, 0.2);
+}
+.card-1 h1{
+    top: 630px;
+    left: 1230px;
+}
+.card-2{
+    margin-bottom: 30px;
+}
+.card-2 h1{
+    top: 890px;
+    left: 1230px;
+}
+.card-2:hover {
+    box-shadow: 10px 10px 15px 0 rgba(255, 255, 255, 0.2);
+}
+.card-3 h1{
+    top: 1150px;
+    left: 1230px;
+}
+.card-3:hover {
+    box-shadow: 10px 10px 15px 0 rgba(255, 255, 255, 0.2);
+}
+img{
+    border-radius: 8px;
+    width: 400px;
+}
+h1{
+    position: absolute;
+    padding: 5px;
+    background: orange;
+    color: black;
+}
+.standings-pl p{
+    font-weight: normal;
+    color: black;
+}
+.pl-news{
+    margin-top: 65px;
+    margin-left: 130px;
+}
+.pl-news p{
+    color: black;
+    margin-bottom: 20px;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 70px;
+    right: 70px;
+    z-index: 99;
+    width: 55px;
+    border: none;
+    outline: none;
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 100px;
+    font-size: 18px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+.arrow{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4px;
+}
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+footer {
+    font-size: 22px;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    margin-top: 70px;
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: 75px;
+}
+footer a{
+    text-decoration: none;
+    color: orange;
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+}
+footer li{
+    margin-left: 40px;
+    display: flex;
+}
